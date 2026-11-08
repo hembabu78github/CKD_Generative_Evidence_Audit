@@ -1,0 +1,36 @@
+{
+  "model": "grok-4.7",
+  "endpoint": "https://api.x.ai/v1/responses",
+  "manifest_sha256": "9c451ca82643689e04fe99f29485ad550bb4b201fb92076bdd77dae29583b638",
+  "prompts_sha256": "6109275aed21f9bd2930dd018fa7b2a0ad1d0647f58b15ec2def52634902d634",
+  "reasoning_effort": "low",
+  "max_output_tokens": 700,
+  "selected_case_ids": [
+    "cb8a45b3178f3f8d",
+    "2d5916a099941304",
+    "98581a54c953ae8b",
+    "52ce6b4fc8046bea",
+    "1eaedfed1d82ff51",
+    "d7a9f6faa7d878de",
+    "8cb61273ca39c342",
+    "6878d47b6b34962a",
+    "7416a6eea2e928c5",
+    "9e339491e6366170",
+    "074b1efefebc8b79",
+    "eaf415559b72ed13",
+    "ef242c138779c599",
+    "9753f66310b6c00e",
+    "231e6a874bd151ce"
+  ],
+  "rates_usd_per_million": {
+    "input": 2,
+    "output": 6
+  },
+  "intended_provenance": "REAL_XAI_API",
+  "api_request_configuration": {
+    "store": false,
+    "temperature": "provider_default",
+    "endpoint_type": "Responses API"
+  },
+  "created_utc": "2026-11-08T03:59:56.133384+00:00"
+}

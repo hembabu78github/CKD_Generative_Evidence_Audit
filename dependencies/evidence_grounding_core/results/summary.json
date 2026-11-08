@@ -1,0 +1,36 @@
+{
+  "protocol": "venue-neutral-EVIDENCE-ASOF-PILOT-1.0",
+  "case_selection": "first eligible MR-validation patients in synthetic Phase-2 pilot cohort; deterministic sorted IDs; selected latest issued nonacute observed result, >=4 eligible records",
+  "patient_scenarios": 100,
+  "evaluations": 3200,
+  "distinct_mutants": 15,
+  "frozen_candidate_id": "CMR-fd3fa393813e67e76871758e",
+  "frozen_delay_days": 3,
+  "baseline_reference_agreement": 200,
+  "baseline_reference_total": 200,
+  "baseline_counts": {
+    "baseline_source_MONITOR": 58,
+    "baseline_delay_3d_MONITOR": 53,
+    "baseline_source_REVIEW": 42,
+    "baseline_delay_3d_REVIEW": 47
+  },
+  "delay_relation_screen": {
+    "TRUE": 85,
+    "FALSE": 15
+  },
+  "relation_warning": "The frozen 3-day delayed-result relation rejects some correctly simulated decisions; its clinical/decision-level validity is NOT established.",
+  "mutants_detected_at_least_once": 12,
+  "mutant_detection_by_scenario": {
+    "source": 378,
+    "delay_3d": 687
+  },
+  "limitations": [
+    "Synthetic engineering target and independently coded policy specification, not validated KDIGO CDS or clinical care recommendation.",
+    "Faults and adjudication policy deliberately specified in this study; engineering mutations are not an unbiased sample of real defects.",
+    "Reference and implementation share synthetic engineering design assumptions, despite separate functions.",
+    "The frozen compiler produced a 3-day DELAY_RESULT_ENTRY transform. Detection uses an additional as-of evidence-trace oracle; do not attribute all detections to the frozen CandidateMR relation alone.",
+    "The frozen CandidateMR remains clinically UNREVIEWED and this study is not an LLM, causal or patient outcome evaluation.",
+    "Synthetic source cohort and simulator framework overlap existing a related CKD manuscript CKD research; disclose overlap and establish distinct novelty before submission.",
+    "Exploratory pilot with no confidence intervals or clinical evaluation; results are not submission-ready evidence of clinical effectiveness."
+  ]
+}

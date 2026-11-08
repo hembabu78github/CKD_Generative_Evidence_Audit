@@ -1,0 +1,231 @@
+{
+  "generated_utc": "2026-11-08T03:44:36.428+00:00",
+  "purpose": "Source/input integrity manifest, not a trusted timestamp or API-execution attestation",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 8585,
+      "sha256": "22cff356c1ddfc9484bad9a436f807a8bb1cb528b441e031f75f34fc82098933"
+    },
+    {
+      "path": "analyze_frozen_relation.py",
+      "size_bytes": 1633,
+      "sha256": "cbec06acabd1c00751e2a7e3cdf222ac3f6e06eae5ec9cfbaf788068e0db69f9"
+    },
+    {
+      "path": "audit_utils.py",
+      "size_bytes": 2554,
+      "sha256": "b3fff8d3cbe0e69d9b824e1d032b1c22f73697b80f8010593e374b608e6129db"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/EXPERIMENT_REPORT.md",
+      "size_bytes": 1561,
+      "sha256": "cb3872c8321518c4cc7d9ae2c3192d3b27a5aa09d1c024a6881bc0d8be1ba19f"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/README.md",
+      "size_bytes": 4466,
+      "sha256": "71497f4a4b666ab9ddc49f9abb0ca0eb9dea3ed5fbaccc386f5d9a2800ba4041"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/pilot_adapter.py",
+      "size_bytes": 10998,
+      "sha256": "85ca9c436b1508d802c7515c89b222fe85b6daaaead696986ca3be182390de21"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/results/case_results.csv",
+      "size_bytes": 1068339,
+      "sha256": "6af858a0b279bc16e4087c1a17255b7adf4298f8f484af382250f5324162301c"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/results/delay_relation_screen.csv",
+      "size_bytes": 3086,
+      "sha256": "f584411bf535a7289f4f6450446f3b3169bd7a57193ad6ac18cca5553d266ec2"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/results/fault_catalogue.json",
+      "size_bytes": 1257,
+      "sha256": "42c92ae40beca2a181014fe740a6ed1d37c5bcf1411740aeb0fa8f30a89df68f"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/results/fault_summary.csv",
+      "size_bytes": 2184,
+      "sha256": "9b094289d90c3ec757fdda7833fa222882c441cf661e3bb1ca87e154eb5c971f"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/results/summary.json",
+      "size_bytes": 2080,
+      "sha256": "a377a927c6430d1a5392aeaafe942b7acf960e3220a925a7eaa7e1aa9ab43cbb"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/run_experiment.py",
+      "size_bytes": 12690,
+      "sha256": "00c086989fa8be8316fcbc8fcd7617b86e12be82ae3e763a58c305dbaae61a56"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/test_experiment.py",
+      "size_bytes": 941,
+      "sha256": "63b900767415d56845a35e75ae28359662adf51f00d05ea4e8c53666da57057e"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_31ce8779673c05fe37e7ce1e.py",
+      "size_bytes": 4909,
+      "sha256": "98051f525fdab4359b84ab247ff13a9dd3a5619f9ac486bda81b8c7b739ec3e7"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_3fbe15eb0c59f7367ebdd879.py",
+      "size_bytes": 4201,
+      "sha256": "c23f8d78bedbd0681dfa587d6e5a8bce526e0ff8acdf8d15739db657954cead3"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_4bdb6db32f311bfc85ea76fd.py",
+      "size_bytes": 4462,
+      "sha256": "720641103c0f2750d37749f34c8402b516d33ccf3f6c5cde6a8279c404e0b4d0"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_50a9723f0360ad3fba34ecd2.py",
+      "size_bytes": 4338,
+      "sha256": "a9021c4d14d1a24c5f1c328e15c3d76ad525beea8229bb140481f9a95301c5ff"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_548584d5df10797164816313.py",
+      "size_bytes": 4572,
+      "sha256": "01fe4b677248f4bdbe9c4d8879707abe9090f9f56aaec5521456e067a0dbe004"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_5685e890d5232ba5a656596d.py",
+      "size_bytes": 4657,
+      "sha256": "d78c67a6f2ec8454cd3629a0f0262cf504a425a5993064e62629c71ae07c5024"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_aeb765295a3081c558da634c.py",
+      "size_bytes": 4322,
+      "sha256": "20a813baafb286b163b129d68c70af0962c9a6578e297729f96b0e5acbcdd830"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_cbde4de53261e747cf0a0645.py",
+      "size_bytes": 3925,
+      "sha256": "d5932ff3be913e14516fc1e73e2cf75a43d8773ccb6fd2d52dd79f9344d3bb9a"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_daaf93e85111e7aa49dfc15a.py",
+      "size_bytes": 4518,
+      "sha256": "1df0bd6902cb79101ee1c15ed5afc9dece70fb5392463b92475a2dd474754500"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_e23a304617adcf5ee0e244c9.py",
+      "size_bytes": 4443,
+      "sha256": "4ef1ae904e412ca7ddb0438cf138972719aacc4f97a97edc0a0b41d28fd5495e"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_f1c39b6972f8b9f1e38b6a34.py",
+      "size_bytes": 4468,
+      "sha256": "43ae2b2fb6e76916f993a16b144632f8fa91fe3313aa45de1b52da55cfa8cbbc"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/fixtures/researcher_c4_014_generated_modules/mr_cmr_fd3fa393813e67e76871758e.py",
+      "size_bytes": 4671,
+      "sha256": "d18ec079281961a3d32e7cf22ea820c15a76bb39569249d733aa3f02adb1bed9"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/runtime/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/chapter4_rc1/runtime/executable_runtime.py",
+      "size_bytes": 15091,
+      "sha256": "d471f4c046c526e98508984dc91eb1b0410ba30de9fe536947c898bf21866b09"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/data/pilot/latent_ground_truth.csv",
+      "size_bytes": 86163,
+      "sha256": "0cf59b90c29a9cd62213d4d3e0b43f4a72478b13dd691ac9c34ead1c11be4f94"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/data/pilot/observations.csv",
+      "size_bytes": 877849,
+      "sha256": "a7a85a26df48d98055a2f2c5a4a3681a4ae8bfff31cfe5e36ff54737ab61f9a4"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/data/pilot/partition_manifest.csv",
+      "size_bytes": 25038,
+      "sha256": "fd7dd4de62f1fe3480aef66183fa728a9f09ade62ab8a5bfb93fefbddf62594e"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/data/pilot/patients.csv",
+      "size_bytes": 117701,
+      "sha256": "678da2b22f4a1c3047132e014fd4fc72f01e44539452cf0434576ef89413198f"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/p2_config_v1.json",
+      "size_bytes": 4603,
+      "sha256": "7557115c5768c9b68bd6d79c6fcda5fdeb771831503131b12f8a8b39b2c8bcec"
+    },
+    {
+      "path": "dependencies/evidence_grounding_core/upstream/phase2_ckd_benchmark_v1/p2_targets_v1.py",
+      "size_bytes": 11436,
+      "sha256": "dafdc51065ae29390b503d970ee9472f034de73dc12e41b4045d0cb05f2be81e"
+    },
+    {
+      "path": "evaluate_llm.py",
+      "size_bytes": 8912,
+      "sha256": "8814e97ec4c1a772a0fe0c6c5dd4398066826d7dafc27b1bdf71b30dcaf9148b"
+    },
+    {
+      "path": "generate_checksum_manifest.py",
+      "size_bytes": 592,
+      "sha256": "c08403a694f235ab18d569cfc75a4f07591cb2377f19bc68606c2875b987a88d"
+    },
+    {
+      "path": "results/evaluation_manifest.jsonl",
+      "size_bytes": 832209,
+      "sha256": "9c451ca82643689e04fe99f29485ad550bb4b201fb92076bdd77dae29583b638"
+    },
+    {
+      "path": "results/frozen_relation_failure_analysis.json",
+      "size_bytes": 1198,
+      "sha256": "fb02608e52b14983760fa6638b10ccef731779aac4e2de54952154ef922f6ba1"
+    },
+    {
+      "path": "results/manifest_summary.json",
+      "size_bytes": 231,
+      "sha256": "f3682a4276ecba33dee5d1f77df591c1bd8aac95e301f8c5ae0d200a34dd0cce"
+    },
+    {
+      "path": "results/model_prompts.jsonl",
+      "size_bytes": 727436,
+      "sha256": "6109275aed21f9bd2930dd018fa7b2a0ad1d0647f58b15ec2def52634902d634"
+    },
+    {
+      "path": "run_full.ps1",
+      "size_bytes": 1229,
+      "sha256": "cec468c4d57ae1bf8e0ad4b38f9f5ff29f50d4d5661ac31c90b5d07c0ea801f6"
+    },
+    {
+      "path": "run_grok.py",
+      "size_bytes": 10529,
+      "sha256": "c68001d74fa1ff7335c9595c21829d16887dbf2cb0e46a685de66d51fabb4aab"
+    },
+    {
+      "path": "run_pilot.ps1",
+      "size_bytes": 1240,
+      "sha256": "9bbf20bb961c0a4dc6839366c572e23974cce4321fdd830e3f7864d55984b184"
+    },
+    {
+      "path": "test_pipeline.py",
+      "size_bytes": 1868,
+      "sha256": "599aa15a282f7219af10151483f187c5da1b222780a253eea9e51ec976361388"
+    },
+    {
+      "path": "verify_run.py",
+      "size_bytes": 5554,
+      "sha256": "86b70dfd437b1bcb3dd7cd5cef52b411c50ade19f5eab6e872a4249d0a193a6f"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "synthetic_patients": 100,
+  "prompt_count": 300,
+  "conditions": {
+    "source": 100,
+    "delayed_3d": 100,
+    "delayed_with_pending_notice": 100
+  },
+  "frozen_delay": "3 calendar days",
+  "note": "not a model evaluation"
+}

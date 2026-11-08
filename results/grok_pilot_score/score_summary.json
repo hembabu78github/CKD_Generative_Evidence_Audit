@@ -1,0 +1,34 @@
+{
+  "evaluated_responses": 15,
+  "expected_responses": 300,
+  "missing_responses": 285,
+  "schema_valid": 15,
+  "action_matches": 15,
+  "trace_exact_ordered": 6,
+  "unavailable_evidence_use_cases": 0,
+  "missing_evidence_use_cases": 0,
+  "acute_evidence_use_cases": 0,
+  "condition_summary": {
+    "delayed_3d": {
+      "n": 5,
+      "action_matches": 5,
+      "trace_matches": 2,
+      "unavailable_used": 0
+    },
+    "delayed_with_pending_notice": {
+      "n": 5,
+      "action_matches": 5,
+      "trace_matches": 3,
+      "unavailable_used": 0
+    },
+    "source": {
+      "n": 5,
+      "action_matches": 5,
+      "trace_matches": 1,
+      "unavailable_used": 0
+    }
+  },
+  "not_clinical_validation": true,
+  "not_causal_effect_estimation": true,
+  "response_provenance": "USER_SUPPLIED_RESPONSES_NOT_INDEPENDENTLY_VERIFIED"
+}

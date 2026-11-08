@@ -1,0 +1,122 @@
+{
+  "protocol_id": "P2-SYNTH-CKD-R1",
+  "protocol_version": "1.0.0",
+  "generator_version": "1.0.0",
+  "created_date": "2026-08-09",
+  "evidence_boundary": "Controlled clinically constrained simulation benchmark; not real-patient clinical validation.",
+  "cohort": {
+    "pilot_size": 600,
+    "full_size": 6000,
+    "trajectory_classes": [
+      "STABLE",
+      "SLOW_DECLINE",
+      "SUSTAINED_DECLINE",
+      "RAPID_DECLINE",
+      "TRANSIENT_ACUTE_LIKE_RECOVERY",
+      "DETERIORATION_PARTIAL_RECOVERY",
+      "ACCELERATING_DECLINE",
+      "DECELERATING_PLATEAU",
+      "SLOPE_CHANGE_WORSENING",
+      "SLOPE_CHANGE_IMPROVING",
+      "THRESHOLD_BOUNDARY",
+      "INSUFFICIENT_EVIDENCE"
+    ],
+    "followup_days": 730,
+    "default_visit_days": [0, 90, 180, 270, 365, 455, 545, 635, 730],
+    "sparse_visit_days": [0, 180, 365, 545, 730],
+    "dense_visit_days": [0, 60, 120, 180, 240, 300, 365, 425, 485, 545, 605, 665, 730],
+    "egfr_floor": 5.0,
+    "egfr_ceiling": 130.0,
+    "measurement_noise_fraction_primary": 0.05,
+    "acr_noise_fraction_primary": 0.15
+  },
+  "baseline_design": {
+    "g_categories": ["G1", "G2", "G3a", "G3b", "G4", "G5"],
+    "g_ranges": {
+      "G1": [90.0, 110.0],
+      "G2": [60.0, 89.9],
+      "G3a": [45.0, 59.9],
+      "G3b": [30.0, 44.9],
+      "G4": [15.0, 29.9],
+      "G5": [7.0, 14.9]
+    },
+    "acr_categories": ["A1", "A2", "A3"],
+    "acr_ranges_mg_g": {
+      "A1": [5.0, 29.0],
+      "A2": [30.0, 300.0],
+      "A3": [301.0, 1500.0]
+    },
+    "age_bands": [[18, 39], [40, 59], [60, 74], [75, 85]],
+    "design_note": "Baseline strata are deliberately coverage-balanced benchmark allocations, not estimates of CKD population prevalence. G1/G2 cases require an albuminuria marker (A2/A3) in the simulator."
+  },
+  "phase2_endpoint": {
+    "id": "P2_SIM_D1_40_RELATIVE_DECLINE_90D_CONFIRM_2Y",
+    "relative_decline_threshold": 0.40,
+    "confirmation_min_days": 90,
+    "horizon_days": 730,
+    "baseline_must_be_nonacute": true,
+    "minimum_valid_followups": 2,
+    "status_note": "Simulation operational endpoint only. It does not silently redefine the final real-world Phase 1 clinical endpoint."
+  },
+  "partitions": {
+    "development": 0.40,
+    "mr_validation": 0.20,
+    "held_out": 0.30,
+    "sensitivity": 0.10,
+    "patient_level_separation": true,
+    "source_followup_same_partition": true,
+    "scenario_family_stratification": true
+  },
+  "seeds": {
+    "pilot": 2026080901,
+    "full": 2026080902,
+    "partition": 2026080903,
+    "lr_model": 2026080911,
+    "hgb_model": 2026080912,
+    "sequence_model": 2026080913,
+    "bootstrap": 2026080921
+  },
+  "targets": {
+    "A1_RULE": {"id": "RB-CKD-SIM-v1", "type": "deterministic_rule", "enabled": true},
+    "A2_LR": {"id": "LR-FEAT-SIM-v1", "type": "logistic_regression", "enabled": true},
+    "A3_HGB": {"id": "HGB-FEAT-SIM-v1", "type": "hist_gradient_boosting", "enabled": true},
+    "A4_SEQ": {"id": "SEQ-LOGIT-SIM-v1", "type": "sequence_logistic_regression", "enabled": true},
+    "A5_POLICY": {"id": "POLICY-LR-SIM-v1", "type": "policy_layer_on_lr", "enabled": true},
+    "A6_E2E": {"id": "E2E-HGB-SIM-v1", "type": "end_to_end_hgb_policy", "enabled": true}
+  },
+  "policy_engineering_thresholds": {
+    "risk_low_upper": 0.25,
+    "risk_moderate_upper": 0.50,
+    "note": "Engineering thresholds are frozen for simulation robustness testing only and are not clinical-care recommendations."
+  },
+  "mr_operator_library": [
+    "SHIFT_TIME",
+    "RESAMPLE_TRAJECTORY",
+    "DELAY_RESULT_ENTRY",
+    "SWAP_EQUIVALENT_ORDER",
+    "REMOVE_REDUNDANT_OBSERVATION",
+    "MASK_REQUIRED_OBSERVATION",
+    "INCREASE_SLOPE",
+    "DECREASE_SLOPE",
+    "INSERT_TRANSIENT_AKI",
+    "CONVERT_UNIT",
+    "PRESERVE_CLINICAL_STATE"
+  ],
+  "fault_catalogue": ["F-01", "F-02", "F-03", "F-04", "F-05", "F-06", "F-07", "F-08", "F-09"],
+  "statistical_plan": {
+    "confidence_level": 0.95,
+    "cluster_bootstrap_replicates": 2000,
+    "primary_unit_for_robustness_ci": "patient-cluster",
+    "fault_ci": "Wilson binomial interval",
+    "paired_method_comparison": "patient-cluster bootstrap risk difference",
+    "multiplicity": "Holm correction for prespecified confirmatory pairwise comparisons; others exploratory",
+    "reviewer_metrics": "Not estimable in Phase 2 without actual human CandidateMR review"
+  },
+  "redistribution_profile": {
+    "id": "P2-SYNTHETIC-REDISTRIBUTABLE-R1",
+    "allow_patient_data": "synthetic only",
+    "exclude_licensed_terminology_labels": true,
+    "exclude_copied_guideline_text": true,
+    "use_local_identifiers_and_public_provenance_locators_only": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "n_pairs": 100,
+  "frozen_oracle_true": 85,
+  "frozen_oracle_false": 15,
+  "transition_counts": {
+    "MONITOR -> MONITOR": 48,
+    "MONITOR -> REVIEW": 10,
+    "REVIEW -> MONITOR": 5,
+    "REVIEW -> REVIEW": 37
+  },
+  "false_transition_counts": {
+    "MONITOR -> REVIEW": 10,
+    "REVIEW -> MONITOR": 5
+  },
+  "false_case_ids": [
+    "P2P000111",
+    "P2P000112",
+    "P2P000126",
+    "P2P000129",
+    "P2P000131",
+    "P2P000266",
+    "P2P000287",
+    "P2P000299",
+    "P2P000361",
+    "P2P000377",
+    "P2P000392",
+    "P2P000395",
+    "P2P000466",
+    "P2P000495",
+    "P2P000496"
+  ],
+  "interpretation": "A previously available latest observation becomes unavailable after 3-day delay. A correctly implemented as-of policy can change MONITOR to REVIEW or REVIEW to MONITOR without abstaining. A preserve-or-abstain universal oracle is therefore not justified for this policy. These are semantic-oracle mismatches, not demonstrated CDS software defects.",
+  "resolution": "Do not alter frozen MR. Mark not clinically validated; seek independently reviewed policy-specific conditional relation or use independently specified as-of evidence-trace oracle as distinct experimental endpoint."
+}

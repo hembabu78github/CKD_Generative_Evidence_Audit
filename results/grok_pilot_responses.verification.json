@@ -1,0 +1,41 @@
+{
+  "verification_pass": true,
+  "complete": true,
+  "status": "COMPLETE",
+  "verified_at_utc": "2026-11-08T04:03:45.716+00:00",
+  "audit_chain": {
+    "valid": true,
+    "events": 47,
+    "head_sha256": "d5bb5e267bffb8defb5dacd6179291a6eca83792a91a0b746fa0267533f1113f"
+  },
+  "selected_cases": 15,
+  "stored_responses": 15,
+  "manifest_cases": 300,
+  "unique_api_response_ids": 15,
+  "events": {
+    "session_start": 1,
+    "api_attempt_start": 15,
+    "api_attempt_success": 15,
+    "response_persisted": 15,
+    "session_end": 1
+  },
+  "total_recorded_tokens": {
+    "input": 31761,
+    "output": 15853
+  },
+  "artifacts_sha256": {
+    "grok_pilot_responses.jsonl": "e8f10a5cd8348a5c7cd67dbeca461e12b20afc5962141814bd4054c7a90cabc8",
+    "grok_pilot_responses.metadata.json": "a2194d81e64e7d018a843df8f0233531a4f124a78a301c61a162d8abaad1c878",
+    "grok_pilot_responses.audit.jsonl": "4718cefd8dd19d4dc13d36521d6e55208439c4e432b3cd0ce3729f618eb67261",
+    "evaluation_manifest.jsonl": "9c451ca82643689e04fe99f29485ad550bb4b201fb92076bdd77dae29583b638",
+    "model_prompts.jsonl": "6109275aed21f9bd2930dd018fa7b2a0ad1d0647f58b15ec2def52634902d634"
+  },
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "Local timestamps and hashes can be altered by someone controlling all files; this is not trusted timestamping or a digital signature.",
+    "API response IDs and usage metadata are captured from returned JSON; independent API-provider attestation is not provided.",
+    "Verifier establishes internal consistency, not model correctness, clinical validity, nor independent authorship.",
+    "The API key and any HTTP error bodies are intentionally excluded from audit evidence."
+  ]
+}

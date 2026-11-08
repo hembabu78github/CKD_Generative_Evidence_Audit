@@ -1,0 +1,17 @@
+{
+  "M01_NO_AVAILABILITY_FILTER": "never filters observations by issue time",
+  "M02_USE_EFFECTIVE_TIME": "uses specimen date rather than issue date for availability",
+  "M03_ONE_DAY_PREMATURE": "accepts results one day before issue",
+  "M04_THREE_DAYS_PREMATURE": "accepts results three days before issue",
+  "M05_INCLUDE_MISSING": "allows missing eGFR observations as zero",
+  "M06_REVERSE_VISIT_ORDER": "uses reverse effective-time ordering for final trend",
+  "M07_LATEST_BY_ISSUE": "uses issue time instead of clinical time to choose most recent observation",
+  "M08_DROP_EARLIEST": "drops earliest available baseline observation",
+  "M09_USE_SECOND_LAST": "uses penultimate instead of most recent measurement",
+  "M10_LOWER_REVIEW_THRESHOLD": "changes relative deterioration threshold from 0.20 to 0.10",
+  "M11_HIGHER_REVIEW_THRESHOLD": "changes relative deterioration threshold from 0.20 to 0.40",
+  "M12_TWO_OBS_SUFFICIENT": "permits decisions with two observations, not three",
+  "M13_NO_ACUTE_EXCLUSION": "uses acute-like observations in longitudinal decision",
+  "M14_ABSOLUTE_DROP": "uses a 10-unit absolute drop rather than relative deterioration",
+  "M15_ALWAYS_REVIEW": "returns REVIEW when enough observations exist irrespective of trend"
+}
