@@ -1,0 +1,6 @@
+{
+  "source": "First frozen 300-case synthetic-policy evaluation; original API results excluded from this new execution package",
+  "manifest_sha256": "9c451ca82643689e04fe99f29485ad550bb4b201fb92076bdd77dae29583b638",
+  "original_responses_sha256": "a00b06ff0cb9653e6b7ef5734134f624769e63a1c452f48e36566824035cd2eb",
+  "original_evaluation_note": "original run yielded 300/300 action matches; 208/300 strict all-ID traces; post-hoc assessment of other 92: endpoint-only"
+}

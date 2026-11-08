@@ -1,0 +1,59 @@
+{
+  "experiment": "dual_trace_contract_v1",
+  "response_provenance": "USER_SUPPLIED_REAL_API_RECORDS_CROSSCHECK_WITH_RUN_AUDIT",
+  "evaluated_responses": 15,
+  "expected_responses": 300,
+  "missing_responses": 285,
+  "overall": {
+    "n": 15,
+    "schema_valid": 15,
+    "action_match": 15,
+    "full_eligible_trace_exact": 15,
+    "full_eligible_set_match": 15,
+    "decision_basis_exact": 15,
+    "ordering_only_full_trace": 0,
+    "missing_evidence_cases": 0,
+    "extra_evidence_cases": 0,
+    "unavailable_evidence_cases": 0
+  },
+  "by_condition": {
+    "delayed_3d": {
+      "n": 5,
+      "schema_valid": 5,
+      "action_match": 5,
+      "full_eligible_trace_exact": 5,
+      "full_eligible_set_match": 5,
+      "decision_basis_exact": 5,
+      "ordering_only_full_trace": 0,
+      "missing_evidence_cases": 0,
+      "extra_evidence_cases": 0,
+      "unavailable_evidence_cases": 0
+    },
+    "delayed_with_pending_notice": {
+      "n": 5,
+      "schema_valid": 5,
+      "action_match": 5,
+      "full_eligible_trace_exact": 5,
+      "full_eligible_set_match": 5,
+      "decision_basis_exact": 5,
+      "ordering_only_full_trace": 0,
+      "missing_evidence_cases": 0,
+      "extra_evidence_cases": 0,
+      "unavailable_evidence_cases": 0
+    },
+    "source": {
+      "n": 5,
+      "schema_valid": 5,
+      "action_match": 5,
+      "full_eligible_trace_exact": 5,
+      "full_eligible_set_match": 5,
+      "decision_basis_exact": 5,
+      "ordering_only_full_trace": 0,
+      "missing_evidence_cases": 0,
+      "extra_evidence_cases": 0,
+      "unavailable_evidence_cases": 0
+    }
+  },
+  "interpretation": "Toy synthetic software-policy agreement, not validated clinical accuracy, patient benefit, causal estimation or generative intervention effectiveness",
+  "analysis_note": "This experiment explicitly disambiguates all eligible evidence from two decision-determining endpoints."
+}

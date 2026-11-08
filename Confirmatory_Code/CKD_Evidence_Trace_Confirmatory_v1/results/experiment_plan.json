@@ -1,0 +1,25 @@
+{
+  "contract_version": "dual_trace_contract_v1",
+  "analysis_status": "PRESPECIFIED_BEFORE_NEW_MODEL_RESPONSES",
+  "n_cases": 300,
+  "n_synthetic_patients": 100,
+  "conditions": {
+    "source": 100,
+    "delayed_3d": 100,
+    "delayed_with_pending_notice": 100
+  },
+  "primary_endpoints": [
+    "action_match",
+    "full_eligible_trace_exact",
+    "decision_basis_exact"
+  ],
+  "secondary_endpoints": [
+    "used_unavailable_or_pending_ids",
+    "wrong_evidence_ids",
+    "missing_eligible_ids",
+    "ordering_only_mismatches"
+  ],
+  "scoring_rules": "Strict ordered array equality; wrong/extraneous ID and omission tracked separately; all metrics denominator is all responses with explicit invalid rows.",
+  "comparison_limit": "Same synthetic cases as prior exploratory run; does not constitute independent external validation or causal estimation.",
+  "reference_manifest_sha256": "9c451ca82643689e04fe99f29485ad550bb4b201fb92076bdd77dae29583b638"
+}
