@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-08T15:51:58.914001+00:00",
+  "file_count": 10,
+  "files": [
+    {
+      "file": "KG_to_MR_JHIR_AEGIS_Revised_Manuscript.docx",
+      "bytes": 293134,
+      "sha256": "7592d1dafc4808969978fbeeb86ce73f007d44515d82bbf69204021b7c51cef4"
+    },
+    {
+      "file": "Chapter4_Compiler_Release_Candidate_RC1(1).zip",
+      "bytes": 301399,
+      "sha256": "66dfb50c29be247fef6fb3f6f7691bff16cfcebf176dbd0502b499dc9931e6f8"
+    },
+    {
+      "file": "results(3).zip",
+      "bytes": 256743,
+      "sha256": "09b706be3c082682623138f9e4c14ccd739a93fe91f41cc47704ac0f2d01183a"
+    },
+    {
+      "file": "results(4).zip",
+      "bytes": 265657,
+      "sha256": "2353ae90cd638bcce3e324a70eb86b8f20ae6d2e26e08bd256fe5b48d6a7dbbc"
+    },
+    {
+      "file": "CKD_KGMR_Matched_Static_Comparison_v1.zip",
+      "bytes": 279312,
+      "sha256": "73af88d68430aaea189ea97ff4c84d22cd0837472bc836b4995035db3dabd90f"
+    },
+    {
+      "file": "results_reproduced(1).zip",
+      "bytes": 3808,
+      "sha256": "93578a66ab83538089071f19205a8b9a08753a58de2a8823b7a2327d929f165f"
+    },
+    {
+      "file": "CKD_Real_Record_KGMR_Comparator_v1.zip",
+      "bytes": 16398,
+      "sha256": "2c43b92a4c59f5acf69df0aedd16a7c6502f08265c10db559cc1483715f578d0"
+    },
+    {
+      "file": "results_reproduced.zip",
+      "bytes": 2529,
+      "sha256": "edac5d207302a6bcca289cc04b7a10a516b64b48efd71ac3237801aadf81c6aa"
+    },
+    {
+      "file": "CKD_Real_Data_Audit_and_Validation_Protocol_v1.zip",
+      "bytes": 14926,
+      "sha256": "c800e14c5a6f331a67377503c10d45f2dbecdd1770a9cc8df3614ed76cbc78f8"
+    },
+    {
+      "file": "CKD_Confirmatory_Independent_Audit_v1.zip",
+      "bytes": 30516,
+      "sha256": "bb71ac1c50bafdc927ce8f6b947714144e49321d5fd9973f8e407a9588f49dae"
+    }
+  ],
+  "note": "source artifacts not redistributed"
+}

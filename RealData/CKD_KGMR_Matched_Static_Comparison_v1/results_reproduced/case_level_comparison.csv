@@ -1,0 +1,130 @@
+candidate_mr_id,scenario,expected_invalid,rc1_reject,matched_reference_reject,basic_template_reject,rc1_reason_count,matched_reason_count,rc1_reasons,reference_reasons
+CMR-31ce8779673c05fe37e7ce1e,control,False,False,False,False,0,0,,
+CMR-31ce8779673c05fe37e7ce1e,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-31ce8779673c05fe37e7ce1e,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-31ce8779673c05fe37e7ce1e,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-31ce8779673c05fe37e7ce1e,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-31ce8779673c05fe37e7ce1e,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-31ce8779673c05fe37e7ce1e,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-31ce8779673c05fe37e7ce1e,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-31ce8779673c05fe37e7ce1e,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-31ce8779673c05fe37e7ce1e,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-31ce8779673c05fe37e7ce1e,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-3fbe15eb0c59f7367ebdd879,control,False,False,False,False,0,0,,
+CMR-3fbe15eb0c59f7367ebdd879,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-3fbe15eb0c59f7367ebdd879,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-3fbe15eb0c59f7367ebdd879,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-3fbe15eb0c59f7367ebdd879,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-3fbe15eb0c59f7367ebdd879,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-3fbe15eb0c59f7367ebdd879,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-3fbe15eb0c59f7367ebdd879,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-3fbe15eb0c59f7367ebdd879,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-3fbe15eb0c59f7367ebdd879,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-3fbe15eb0c59f7367ebdd879,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-4bdb6db32f311bfc85ea76fd,control,False,False,False,False,0,0,,
+CMR-4bdb6db32f311bfc85ea76fd,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-4bdb6db32f311bfc85ea76fd,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-4bdb6db32f311bfc85ea76fd,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-4bdb6db32f311bfc85ea76fd,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-4bdb6db32f311bfc85ea76fd,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-4bdb6db32f311bfc85ea76fd,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-4bdb6db32f311bfc85ea76fd,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-4bdb6db32f311bfc85ea76fd,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-4bdb6db32f311bfc85ea76fd,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-4bdb6db32f311bfc85ea76fd,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-50a9723f0360ad3fba34ecd2,control,False,False,False,False,0,0,,
+CMR-50a9723f0360ad3fba34ecd2,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-50a9723f0360ad3fba34ecd2,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-50a9723f0360ad3fba34ecd2,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-50a9723f0360ad3fba34ecd2,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-50a9723f0360ad3fba34ecd2,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-50a9723f0360ad3fba34ecd2,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-50a9723f0360ad3fba34ecd2,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-50a9723f0360ad3fba34ecd2,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-50a9723f0360ad3fba34ecd2,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-50a9723f0360ad3fba34ecd2,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-548584d5df10797164816313,control,False,False,False,False,0,0,,
+CMR-548584d5df10797164816313,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-548584d5df10797164816313,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-548584d5df10797164816313,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-548584d5df10797164816313,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-548584d5df10797164816313,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-548584d5df10797164816313,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-548584d5df10797164816313,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-548584d5df10797164816313,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-548584d5df10797164816313,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-5685e890d5232ba5a656596d,control,False,False,False,False,0,0,,
+CMR-5685e890d5232ba5a656596d,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-5685e890d5232ba5a656596d,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-5685e890d5232ba5a656596d,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-5685e890d5232ba5a656596d,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-5685e890d5232ba5a656596d,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-5685e890d5232ba5a656596d,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-5685e890d5232ba5a656596d,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-5685e890d5232ba5a656596d,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-5685e890d5232ba5a656596d,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-5685e890d5232ba5a656596d,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-aeb765295a3081c558da634c,control,False,False,False,False,0,0,,
+CMR-aeb765295a3081c558da634c,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-aeb765295a3081c558da634c,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-aeb765295a3081c558da634c,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-aeb765295a3081c558da634c,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-aeb765295a3081c558da634c,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-aeb765295a3081c558da634c,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-aeb765295a3081c558da634c,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-aeb765295a3081c558da634c,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-aeb765295a3081c558da634c,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-aeb765295a3081c558da634c,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-cbde4de53261e747cf0a0645,control,False,False,False,False,0,0,,
+CMR-cbde4de53261e747cf0a0645,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-cbde4de53261e747cf0a0645,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-cbde4de53261e747cf0a0645,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-cbde4de53261e747cf0a0645,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-cbde4de53261e747cf0a0645,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-cbde4de53261e747cf0a0645,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-cbde4de53261e747cf0a0645,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-cbde4de53261e747cf0a0645,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-daaf93e85111e7aa49dfc15a,control,False,False,False,False,0,0,,
+CMR-daaf93e85111e7aa49dfc15a,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-daaf93e85111e7aa49dfc15a,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-daaf93e85111e7aa49dfc15a,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-daaf93e85111e7aa49dfc15a,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-daaf93e85111e7aa49dfc15a,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-daaf93e85111e7aa49dfc15a,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-daaf93e85111e7aa49dfc15a,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-daaf93e85111e7aa49dfc15a,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-daaf93e85111e7aa49dfc15a,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-daaf93e85111e7aa49dfc15a,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-e23a304617adcf5ee0e244c9,control,False,False,False,False,0,0,,
+CMR-e23a304617adcf5ee0e244c9,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-e23a304617adcf5ee0e244c9,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-e23a304617adcf5ee0e244c9,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-e23a304617adcf5ee0e244c9,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-e23a304617adcf5ee0e244c9,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-e23a304617adcf5ee0e244c9,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-e23a304617adcf5ee0e244c9,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-e23a304617adcf5ee0e244c9,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-e23a304617adcf5ee0e244c9,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-e23a304617adcf5ee0e244c9,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-f1c39b6972f8b9f1e38b6a34,control,False,False,False,False,0,0,,
+CMR-f1c39b6972f8b9f1e38b6a34,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-f1c39b6972f8b9f1e38b6a34,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-f1c39b6972f8b9f1e38b6a34,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-f1c39b6972f8b9f1e38b6a34,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-f1c39b6972f8b9f1e38b6a34,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-f1c39b6972f8b9f1e38b6a34,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-f1c39b6972f8b9f1e38b6a34,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-f1c39b6972f8b9f1e38b6a34,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-f1c39b6972f8b9f1e38b6a34,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-f1c39b6972f8b9f1e38b6a34,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage
+CMR-fd3fa393813e67e76871758e,control,False,False,False,False,0,0,,
+CMR-fd3fa393813e67e76871758e,operator_unknown,True,True,True,True,1,1,T operator outside frozen library,operator
+CMR-fd3fa393813e67e76871758e,relation_unknown,True,True,True,False,1,1,unsupported R family,relation family
+CMR-fd3fa393813e67e76871758e,condition_source_removed,True,True,True,False,1,1,C.children[0]: source_refs required,missing condition provenance
+CMR-fd3fa393813e67e76871758e,invariant_provenance_removed,True,True,True,False,1,1,I[0] comparator/provenance missing,invariant provenance
+CMR-fd3fa393813e67e76871758e,source_locator_removed,True,True,True,False,1,1,P source provenance incomplete,source knowledge provenance
+CMR-fd3fa393813e67e76871758e,expert_status_forged,True,True,True,False,1,1,C4-013 must not claim expert validation,expert review status
+CMR-fd3fa393813e67e76871758e,condition_missingness_flipped,True,True,True,False,1,1,C.children[0]: missing evidence must be INDETERMINATE,missing evidence policy
+CMR-fd3fa393813e67e76871758e,parameter_source_removed,True,True,True,False,1,1,unprovenanced T parameter,parameter provenance
+CMR-fd3fa393813e67e76871758e,exception_evidence_removed,True,True,True,False,1,1,E[0] exception evidence refs missing,exception provenance
+CMR-fd3fa393813e67e76871758e,forbidden_fixture_truth,True,True,True,False,1,1,E[0] leaked fixture truth into generic candidate spec,truth leakage

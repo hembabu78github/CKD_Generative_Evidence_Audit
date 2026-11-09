@@ -1,0 +1,16 @@
+{
+  "source_archive": "Chapter4_Compiler_Release_Candidate_RC1(1).zip",
+  "source_archive_sha256": "66dfb50c29be247fef6fb3f6f7691bff16cfcebf176dbd0502b499dc9931e6f8",
+  "files": {
+    "vendor/runtime/executable_runtime.py": {
+      "source_path": "Chapter4_Compiler_Release_Candidate_RC1/runtime/executable_runtime.py",
+      "sha256": "d471f4c046c526e98508984dc91eb1b0410ba30de9fe536947c898bf21866b09",
+      "byte_identical": true
+    },
+    "vendor/generated/mr_cmr_3fbe15eb0c59f7367ebdd879.py": {
+      "source_path": "Chapter4_Compiler_Release_Candidate_RC1/fixtures/researcher_c4_014_generated_modules/mr_cmr_3fbe15eb0c59f7367ebdd879.py",
+      "sha256": "c23f8d78bedbd0681dfa587d6e5a8bce526e0ff8acdf8d15739db657954cead3",
+      "byte_identical": true
+    }
+  }
+}
