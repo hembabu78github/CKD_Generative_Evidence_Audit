@@ -1,14 +1,14 @@
 # CKD synthetic evidence-grounding evaluation — reproducible Grok 4.7 package
 
-**Venue-neutral research package v2.0.** This project can support peer review, code review, independent replication, or a conference/journal supplementary release, subject to venue policies and scientific novelty requirements. No publication venue is named in source code, package paths, or results.
+**Venue-neutral research package v*.*.** This project can support peer review, code review, independent replication, or a conference/journal supplementary release, subject to venue policies and scientific novelty requirements. No publication venue is named in source code, package paths, or results.
 
 ## Research scope and important limits
 
 - Dataset: **100 synthetic patients × 3 evidence-availability conditions = 300 prompts**. This evaluates an *arbitrary software-policy fixture* for as-of result availability, not a medical treatment guideline.
 - API: xAI Responses API; configured model `grok-4.7`. No clinical images, real patient records or patient care are involved.
 - Original compiler/evidence experiment sources have been included for traceability; scientific code and previously collected data are not independently validated by this packaging work.
-- No live API requests have been performed in the creation of this release. Supplied JSONL inputs and existing reference files are **not** model responses. Real experiment claims require executing the API scripts and checking the resulting metadata, audit and verification files.
 - Relevant prior/publication submissions and overlapping datasets or software must be disclosed by the researchers as required by the chosen venue; changing the package name does not create scientific novelty.
+- Third-party datasets are not included and give their download links, and describe the response files as saved outputs of the real runs
 
 ## On Windows: quick start
 
