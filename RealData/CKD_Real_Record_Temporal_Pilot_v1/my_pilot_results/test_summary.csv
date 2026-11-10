@@ -1,7 +1,0 @@
-test,n,passed,failed
-availability_delay_monotonicity,100,100,0
-duplicate_conflict_flag,100,100,0
-foreign_evidence_id_rejection,100,100,0
-future_observation_exclusion,100,100,0
-mask_required_result,100,100,0
-order_permutation,100,100,0

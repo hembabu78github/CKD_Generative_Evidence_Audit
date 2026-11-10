@@ -1,4 +1,0 @@
-condition,cases,baseline_detect,enhanced_detect,mr_detect,either_detect,both_detect,neither_detect,mr_true,mr_false,mr_indeterminate
-control,98,0,0,0,0,0,98,98,0,0
-auxiliary_coupling,98,0,98,98,98,0,0,0,98,0
-future_evidence_leak,98,98,98,0,98,0,0,98,0,0
