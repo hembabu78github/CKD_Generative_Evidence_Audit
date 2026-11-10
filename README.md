@@ -1,6 +1,6 @@
 # CKD synthetic evidence-grounding evaluation — reproducible Grok 4.7 package
 
-**Venue-neutral research package v*.*.** This project can support peer review, code review, independent replication, or a conference/journal supplementary release, subject to venue policies and scientific novelty requirements. No publication venue is named in source code, package paths, or results.
+**Venue-neutral research package v1.0.6 This project can support peer review, code review, independent replication, or a conference/journal supplementary release, subject to venue policies and scientific novelty requirements. No publication venue is named in source code, package paths, or results.
 
 ## Research scope and important limits
 
@@ -8,7 +8,8 @@
 - API: xAI Responses API; configured model `grok-4.7`. No clinical images, real patient records or patient care are involved.
 - Original compiler/evidence experiment sources have been included for traceability; scientific code and previously collected data are not independently validated by this packaging work.
 - Relevant prior/publication submissions and overlapping datasets or software must be disclosed by the researchers as required by the chosen venue; changing the package name does not create scientific novelty.
-- Third-party datasets are not included and give their download links, and describe the response files as saved outputs of the real runs
+- Third-party datasets (MIMIC-IV Clinical Database Demo v2.2, NHANES 2021–2023, and the Tawam CKD dataset) are not included in this archive. Obtain them from their original sources: https://physionet.org/content/mimic-iv-demo/2.2/ , https://wwwn.cdc.gov/nchs/nhanes/ , and the supplementary file of Al-Shamsi et al., PLOS ONE 13(6):e0199920 (https://doi.org/10.1371/journal.pone.0199920). Their licences and terms of use apply.
+- The files under `results/` and `Confirmatory_Code/.../results/` are the saved outputs of real xAI API runs (Grok 4.7); the experiments were run before packaging and were not rerun for this release.
 
 ## On Windows: quick start
 
