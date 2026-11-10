@@ -1,7 +1,1 @@
 powershell -ExecutionPolicy Bypass -File .\run_pilot.ps1
-
-
-xai-naw9X5f4rLIdYP9OCBGz1aUTfzt4zS9B51k4iJTefQ41LsdcJtRH4fRcngG4ce6DgAIkDf9B6T3FKCG4
-
-
-
