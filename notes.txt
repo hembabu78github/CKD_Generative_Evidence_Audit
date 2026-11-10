@@ -5,3 +5,138 @@ xai-naw9X5f4rLIdYP9OCBGz1aUTfzt4zS9B51k4iJTefQ41LsdcJtRH4fRcngG4ce6DgAIkDf9B6T3F
 
 
 
+
+
+
+Recommended datasets
+Dataset	Records	Real patient data?	Download difficulty	Research value
+MIMIC-IV Clinical Database Demo	100 patients	Yes	Easy	Very high
+NHANES 2021–2023	Thousands of participants	Yes	Easy	Very high
+UCI Chronic Kidney Disease	400	Yes, hospital-derived	Very easy	Moderate
+UCI Risk Factor Prediction of CKD	200	Reported clinical survey dataset	Very easy	Moderate–low
+Synthea	Configurable	No	Easy	High for testing
+
+
+
+
+Characterizes your achievement
+
+
+
+
+
+
+1. MIMIC-IV Demo — my first choice
+
+
+
+
+
+
+
+
+
+
+MIMIC-IV Clinical Database Demo
+
+This is a freely accessible subset of 100 de-identified hospital patients. It includes real clinical observations and hospital data, unlike our synthetic trajectories. 
+PhysioNet
+
+Download MIMIC-IV Demo
+
+Why it matters: We could evaluate repeated creatinine measurements, observation timestamps, missing values and temporal ordering using real EHR records, where the necessary fields are available.
+
+It is an ICU/hospital cohort, not a representative outpatient CKD cohort. We would need to determine how many patients have usable kidney-related measurements.
+
+There is also an open FHIR-formatted demo with 100 patients, published in August 2025:
+Download MIMIC-IV FHIR Demo (49.5 MB)This version is particularly interesting because it allows us to test evidence provenance using standardized FHIR observation records. 
+PhysioNet
+
+2. NHANES — best larger real-world dataset
+
+
+
+
+
+
+
+
+
+
+NHANES 2021–2023
+
+CDC provides downloadable files covering serum creatinine, urine albumin and creatinine, blood pressure, diabetes and demographic characteristics. 
+Continuous NHANES+1
+
+Download NHANES laboratory files
+
+For our experiments, download these four files first:
+- DEMO_L — demographics and survey weights.
+- BIOPRO_L — standard biochemical profile, including creatinine.
+- ALB_CR_L — urine albumin and creatinine.
+- BPXO_L — blood pressure measurements.
+These files can be joined using the participant identifier SEQN.
+
+NHANES is useful for validating baseline kidney-function distributions, missingness, calculations and subgroup behavior. However, it is generally cross-sectional rather than a patient-level longitudinal EHR.
+3. UCI Chronic Kidney Disease — quick external validation
+
+
+
+
+
+
+
+
+
+
+UCI Chronic Kidney Disease
+
+Contains 400 observations and 24 features, including creatinine, blood urea, hemoglobin, blood pressure and clinical conditions. It has a CC BY 4.0 license. 
+UCI Machine Learning Repository
+
+Download UCI CKD data
+
+This is a simple way to add an independently sourced CKD dataset for missing-value, input-consistency and robustness tests.
+
+It is not suitable for longitudinal delay experiments because it lacks dated repeated patient observations.
+4. UCI Risk Factor Prediction of CKD
+
+
+
+
+
+
+
+
+
+
+Risk Factor Prediction of Chronic Kidney Disease
+
+Contains 200 records and 28 features. It is freely downloadable under CC BY 4.0. 
+UCI Machine Learning Repository
+
+Download risk-factor dataset
+
+This gives us another independently sourced collection, although it would add relatively little beyond Tawam and NHANES.
+5. Synthea — for realistic longitudinal EHR testing
+
+
+
+
+
+
+
+
+
+
+Synthea
+
+Synthea generates longitudinal patient histories with encounters, laboratory observations, medications and diagnoses. It supports CSV and HL7 FHIR exports. 
+synthetichealth.github.io
+
+Download Synthea
+
+This is not another real-patient dataset, but it has an advantage over our current synthetic test cases: the records are generated through a published, independent simulation framework.
+
+
+
